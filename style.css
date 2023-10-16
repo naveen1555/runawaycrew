@@ -1,0 +1,402 @@
+body {
+  font-family: roboto;
+  margin-left: 0;
+  color: #fff;
+}
+
+.nav-about-section {
+  background-color: #3852a3;
+  padding-bottom: 50px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-sections {
+  list-style: none;
+  display: flex;
+  background-color: rgb(36, 42, 62);
+  opacity: 0.5;
+  color: #fff;
+  border-radius: 10px;
+  padding-top: 20px;
+}
+
+ul li {
+  margin-right: 50px;
+  color: #fff;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.our-work {
+  background-color: #d75656;
+  padding-top: 70px;
+}
+
+.our-work-heading {
+  font-size: 36px;
+  margin-left: 100px;
+}
+
+.images-container {
+  display: flex;
+}
+
+.imgvert {
+  width: 320px;
+  height: 500px;
+  margin-right: 7px;
+}
+
+.imghor {
+  width: 515px;
+  height: 250px;
+}
+
+.imghornextrow-container {
+  width: 740px;
+  height: 250px;
+  margin: 7px;
+}
+
+.imghornextrow {
+  width: 100%;
+  height: 100%;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width: 211px;
+  text-align: center;
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 30px;
+  padding: 10px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.cards-container-main {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.bottom-cards-container {
+  background-color: #ba0cba;
+}
+
+.services {
+  background-color: #bd4fbd;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.card-hr {
+  color: #db4712;
+}
+
+.clients {
+  background-color: #bd4fbd;
+  padding: 50px 100px;
+}
+
+.testinomails {
+  display: flex;
+  margin: 100px 10px;
+}
+
+.testinomail-card {
+  border-radius: 40px;
+  background-color: white;
+  width: 437px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+  box-shadow: -16px 16px 15px rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  position: relative;
+}
+
+.testinomail-back-card {
+  border-radius: 40px;
+  background-color: #3d85c6;
+  width: 400px;
+  height: 490px;
+  top: -44px;
+  left: 200px;
+  margin-left: -277px;
+  margin-top: -50px;
+  box-shadow: -25px 25px 34px rgba(0, 0, 0, 0.5);
+}
+
+.testinomail-card p {
+  font-style: italic;
+  color: #000;
+}
+
+.testinomail-card p:nth-child(3) {
+  font-weight: bold;
+  color: #000;
+}
+
+.testinomail-card p:nth-child(4) {
+  color: rgb(195, 57, 80);
+}
+
+.testimonials-heading {
+  font-size: 36px;
+  color: yellow;
+}
+
+.testimonials-description {
+  display: flex;
+  text-align: end;
+  width: 192px;
+  font-style: italic;
+}
+
+.testimonials-description p {
+  font-size: 32px;
+}
+
+.testimonials-image img {
+  width: 50px;
+  margin-left: 37px;
+}
+
+.testinomail-bg-card {
+  width: 437px;
+  margin-left: 100px;
+}
+.footer-logo-text {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.contact-us {
+  background-color: #0a5645;
+  padding: 100px 5px;
+}
+
+.contact-us-heading {
+  font-size: 36px;
+}
+
+.footer-icons {
+  width: 60px;
+  margin: 10px;
+}
+
+.footer-logo-text p {
+  padding: 10px;
+}
+
+.footer-pacto-logo {
+  background-color: #13b1e6;
+  border-radius: 50%;
+  width: 114px;
+  height: 114px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.patco-logo {
+  margin: 10px 20px;
+}
+
+.patco-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.font-24 {
+  font-size: 24px;
+}
+
+.font-18 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffff00;
+}
+
+.about-us-section1 {
+  width: 500px;
+
+  text-align: end;
+  margin: 50px;
+}
+
+.about-us-section2 {
+  width: 455px;
+  margin: 58px;
+  line-height: 24px;
+}
+
+.about-us {
+  display: flex;
+  margin-left: 141px;
+}
+/* .abouthr {
+  width: 150px;
+} */
+
+.about-image-container {
+  margin-left: 200px;
+}
+
+.our-creative {
+  font-size: 36px;
+  margin-left: 30px;
+}
+
+.our-creative-discription-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.our-creative-discription {
+  width: 290px;
+  margin-left: 20px;
+  margin-right: 2px;
+}
+
+.our-creative-discription h5 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.pacto-heading {
+  font-size: 60px;
+  margin-top: 260px;
+  margin-bottom: 260px;
+}
+
+.process {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 130px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.our-services-text {
+  font-size: 36px;
+  margin-left: 100px;
+  margin-top: 0;
+}
+
+.card-container p:first-child {
+  font-weight: bold;
+}
+
+.services-image {
+  width: 700px;
+  margin-bottom: 50px;
+}
+
+.services-image-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.clients-heading {
+  font-size: 36px;
+  margin-left: 100px;
+  color: yellow;
+}
+
+.contact-us-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-text-container {
+  margin-left: 200px;
+}
+
+.contact-us-heading-container {
+  margin-left: 210px;
+}
+
+.footer-logo-text p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.planet-container {
+  width: 350px;
+  height: 350px;
+  background-image: url("assets/pacto-logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  position: relative;
+  background-position: center;
+}
+
+.moon-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.moon {
+  width: 60px;
+  height: 60px;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.moon:nth-child(1) {
+  top: 168px;
+  left: -13%;
+  transform: translateX(-50%);
+}
+
+.moon:nth-child(2) {
+  top: 33%;
+  left: -66px;
+  transform: translateY(-50%);
+}
+
+.moon:nth-child(3) {
+  bottom: -20px;
+  left: 7%;
+  transform: translateX(-50%);
+}
+
+.moon:nth-child(4) {
+  top: 80%;
+  left: -54px;
+  transform: translateY(-50%);
+}
+
+.moon:nth-child(5) {
+  top: 1px;
+  left: -24px;
+}
+
+.social-media {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
